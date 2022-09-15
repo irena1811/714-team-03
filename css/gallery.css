@@ -41,7 +41,7 @@
   margin-top: 45px;
 }
 
-.gallery__main__image img {
+.gallery__main__image {
   width: 272px;
   height: auto;
   object-fit: cover;
