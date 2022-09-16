@@ -1,10 +1,16 @@
 .main__traditional__title {
-    color: var(--title-brown-color);
-    font-family: Playfair Display,serif;
-    font-size: 54px;
-    font-weight: 700;
-    width: 400px;
+  color: var(--title-brown-color);
+  font-family: Playfair Display, serif;
+  font-size: 54px;
+  font-weight: 700;
+  width: 400px;
 }
 
-
-
+.main__traditional__title:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 45px;
+  margin: auto;
+  background-color: var(--green-color);
+}
